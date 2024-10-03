@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo,
+    ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+}
+.ss1 {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.ss1 > .headd {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.aa1 {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 50px;
+}
+.aa1 > h1 {
+  font-weight: bold;
+  font-size: 27px;
+}
+.aa1 > h1:hover {
+  cursor: pointer;
+}
+.aa1 > .fa-square {
+  font-size: 20px;
+  color: blue;
+}
+.aa2 {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+}
+.aa2 > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.aa2 > ul > li {
+  list-style: none;
+  font-size: 14px;
+}
+.aa2 > ul > li > a {
+  text-decoration: none;
+  color: #111;
+}
+.aa2 > ul > li > a:focus {
+  color: #0050ff;
+}
+
+.aa2 > ul > li > :hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.project {
+  width: 100%;
+  height: 90rem;
+  background: #e6dace;
+  position: relative;
+  transition: 3s;
+}
+#prohead {
+  position: absolute;
+  top: 120px;
+  left: 645px;
+}
+
+.proj1 {
+  width: 750px;
+  height: 400px;
+  background: #fff;
+  display: flex;
+  position: absolute;
+  top: 270px;
+  left: 350px;
+  box-shadow: 1px 5px 10px 2px gray;
+  gap: 50px;
+  padding: 80px 40px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  gap: 45px;
+}
+.heading > h1 {
+  font-size: 25px;
+  color: #004ef7;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  gap: 53px;
+}
+.Info > .h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.Info > .h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -35px;
+}
+.proj2 {
+  width: 750px;
+  height: 400px;
+  background: #fff;
+  display: flex;
+
+  position: absolute;
+  top: 800px;
+  left: 350px;
+  box-shadow: 1px 5px 10px 2px gray;
+  padding: 80px 40px;
+  gap: 42px;
+}
+.proj2 > .h1 {
+  font-size: 23px;
+  color: #0050ff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
